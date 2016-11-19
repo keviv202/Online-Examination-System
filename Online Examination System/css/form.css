@@ -1,0 +1,61 @@
+input, textarea { 
+	font: 14px/24px Helvetica, Arial, sans-serif; 
+	color: #666; 
+}
+input, textarea { 
+	background: none repeat scroll 0 0 #FFFFFF; 
+	border: 1px solid #C9C9C9; 
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset, -5px -5px 0 0 #F5F5F6, 5px 5px 0 0 #F5F5F6, 5px 0 0 0 #F5F5F6, 0 5px 0 0 #F5F5F6, 5px -5px 0 0 #F5F5F6, -5px 5px 0 0 #F5F5F6; 
+	color: #545658; 
+	padding: 8px; 
+	font-size: 14px; 
+	border-radius: 2px 2px 2px 2px; 
+}
+.clearfix:after { 
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden; 
+}
+.clearfix { 
+	display: inline-block 
+} /* Hide from IE Mac \*/
+.clearfix { 
+	display: block; 
+} /* End hide from IE Mac */
+.none { 
+	display: none; 
+} /* End Clearfix _NO__DOTCOMMA__AFTER__*/
+
+.all{
+	display:inline-block;
+	height:25px;
+	margin-bottom: 30px;
+	width:400px;	
+}
+.lab{
+	margin-left:10px;
+	float:left;
+	width:190px;
+}
+.box{
+	float:right;
+	width:190px;
+}
+#required p{
+	font-size:10px;
+}
+#apply { 
+	border-top: 1px solid #efefef; 
+	margin-top: 30px; 
+	padding: 20px 0 0 0; 
+}
+#apply ul { 
+	margin-bottom: 50px 
+}
+form label {
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-size: 16px;
+}
